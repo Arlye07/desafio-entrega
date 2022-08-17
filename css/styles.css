@@ -4,4 +4,14 @@
     box-sizing: border-box;
 }
 
-h1{font-family: fantasy;}
+h1{font-family: fantasy;
+    color: rgb(10, 10, 212);
+    font-size: 45px;
+    
+}
+h1:hover{
+    color: aqua;
+    text-decoration: underline;
+    transition: .3s;
+    transform: skew(45deg);
+}
